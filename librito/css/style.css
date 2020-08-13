@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Noto+Sans+JP:wght@500&display=swap');
+
+body
+{
+margin: 0;
+padding: 0;
+font-family: 'Quicksand',sans-serif;
+background: #eeeaea;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+  
+}
+.name h1 span:first-child {
+    color: #353331;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 2em;
+}
+.name h1 span {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* text-shadow: 2px 2px 2px rgb(182, 163, 179); */
+color: rgb(201, 137, 221);
+
+}
+.name h1 span:last-child {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /*   text-shadow: 2px 2px 2px rgb(172, 151, 169); */
+    color: rgb(170, 235, 199);
+    
+    }
+
+.container-cards{
+max-width: 1000px;
+margin: 100px auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 25px; 
+}
+.card
+{
+position: relative;
+margin: 20px 0;
+width: 260px;/* 300 */
+height: 380px;/* 400 */
+background: #fff;
+transform-style: preserve-3d;
+transform: perspective(2000px);
+transition: 1s;
+box-shadow: inset 300px 0 50px rgba(0,0,0,.5); 
+border-radius: 6px;
+}
+.card:hover{
+transform: perspective(2000px) rotate(-10deg);
+box-shadow: inset 20px 0 50px rgba(0,0,0,.5);
+z-index: 1000;
+
+}
+.card .imgBox
+{
+position: relative;
+width:100%;
+height: 100%;
+border: 1px solid rgb(219, 210, 210);
+box-shadow: 10px 0 20px rgba(0,0,0,.5);
+box-sizing: border-box;
+transform-origin: left;
+z-index: 1;
+transition: 1s;
+border-radius: 6px;
+}
+ .card:hover .imgBox
+{
+    transform: rotateY(-135deg);
+}
+
+.card .imgBox img
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    border-radius: 6px;
+}
+.card .details
+{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding: 20px;
+    /* font-family: 'Lemonada', cursive; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    color: #353331;
+    
+}
+.card .details h2
+{
+  letter-spacing: 2px;
+    color: #353331;
+    
+}
+.card .details p
+{
+  letter-spacing: 2px;
+    color: #353331;
+    
+}
+.card .details span
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #353331;
+    
+    
+}
+.sm
+{
+margin: 0px 10px;
+}
+.sm a
+{
+display: inline-flex;
+width: 60px;
+height: 60px;
+justify-content: center;
+align-items: center;
+color: #353331;
+transition: .4s;
+} 
+
+.icon
+{
+    width: 38px;
+    margin-top: 5px;
+}
+ .icon path
+{
+    fill: #353331;
+    stroke-width: 0.1;
+    stroke: #353331;
+    /* fill:  #353331; */
+
+}
+.icon.fb path
+{
+    stroke-dasharray: 100;
+    stroke-dashoffset: 0;
+}
+.icon.fb:hover path
+{
+    animation: animate-fb 1.5s linear forwards;
+}
+@keyframes animate-fb
+{
+    0%
+    {
+        stroke-width: 0.3;
+        stroke-dasharray: 0;
+        fill: transparent;
+    }
+    40%
+    {
+        stroke-width: 1;
+        stroke-dasharray: 10;
+        fill: transparent;
+    }
+    80%
+    {
+        stroke-dasharray: 30;
+        fill: transparent;
+    }
+    100%
+    {
+        stroke-dasharray: 100;
+        fill: #353331;
+    }
+}
+
+
+.icon.insta path
+{
+    stroke-dasharray: 100;
+    stroke-dashoffset: 0;
+}
+.icon.insta:hover path
+{
+    animation: animate-insta 1.5s linear forwards;
+}
+@keyframes animate-insta
+{
+    0%
+    {
+        stroke-width: 0.3;
+        stroke-dasharray: 0;
+        fill: transparent;
+    }
+    40%
+    {
+        stroke-width: 1;
+        stroke-dasharray: 10;
+        fill: transparent;
+    }
+    80%
+    {
+        stroke-dasharray: 30;
+        fill: transparent;
+    }
+    100%
+    {
+        stroke-dasharray: 100;
+        fill: #353331;
+    }
+}
+.icon.twitter path
+{
+    stroke-dasharray: 100;
+    stroke-dashoffset: 0;
+}
+.icon.twitter:hover path
+{
+    animation: animate-twitter 1.5s linear forwards;
+}
+@keyframes animate-twitter
+{
+    0%
+    {
+        stroke-width: 0.3;
+        stroke-dasharray: 0;
+        fill: transparent;
+    }
+    40%
+    {
+        stroke-width: 1;
+        stroke-dasharray: 10;
+        fill: transparent;
+    }
+    80%
+    {
+        stroke-dasharray: 30;
+        fill: transparent;
+    }
+    100%
+    {
+        stroke-dasharray: 100;
+        fill: #353331;
+    }
+}
+
+
+ @media (max-width:989px){
+
+    
+    .front,
+    .back
+    {
+        margin-left: 20px;
+      
+    }
+    }
+    
+    
+    @media (max-width:768px){
+   
+       
+        .front,
+        .back
+        {
+            margin-left: 110px;
+            height: 100%;
+            width: 200px;
+        }
+        .front img
+        {
+            width: 200px;
+          /*   border: 1px solid wheat; */
+            margin-left: -10px;
+        }
+        .name{
+            text-align:center;
+            align-content: center;
+            padding-top: 1em;
+            margin:0 20px;
+          
+        }
+        .name h1 span:first-child {
+            
+            font-size: 1.5em;
+        }
+             
+    }
+    @media (max-width:468px){
+        
+        .name h1 span:first-child {
+            
+            font-size: 0.5em;
+        }
+    }

@@ -1,0 +1,62 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+body
+{
+font-family: consoles;
+/* height: 100vh; */
+background: #e9dada;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    background: #da12ec;
+    padding: 10px 20px;
+    transform-origin: top left;
+    animation: caida 2s ease-in-out;
+   /*  animation: caida 5s infinite; */
+}
+
+@keyframes caida{
+    20%,60%{
+        transform:rotate(70deg);
+    }
+    40%,80%{
+        transform:rotate(55deg);
+        opacity: 1;
+    }
+    100%{
+        transform:translateY(600px);
+        opacity: 0;
+    }
+}
+.box p{
+    font-size: 50px;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+
+@media(max-width:825px){
+    .box p{
+        font-size: 30px;
+    
+    }  
+}
+@media(max-width:513px){
+    .box p{
+        font-size: 20px;
+    
+    }  
+}
+@media(max-width:355px){
+    .box p{
+        font-size: 15px;
+    min-width: 190px;
+    }  
+}
