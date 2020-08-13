@@ -21,7 +21,7 @@ _Editor de codigo (para editar/ hacer cambios)_
 
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/BUTTON%20neon.gif)  
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/animaci%C3%B3n%20caida.gif)  
-![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/tree/master/animacionTextoBrillanteCss)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/animaci%C3%B3n%20texto%20glowing.gif)  
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/animacionTrazoSVG.gif)  
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/botones%20sombras.gif)  
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/btn%20hover%20lado.gif)  
