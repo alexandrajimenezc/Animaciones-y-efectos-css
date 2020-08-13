@@ -1,5 +1,5 @@
 # Practicas en css :
- _Animaciones y efectos en html y css _
+ _Animaciones y efectos en html y css_
 
 ## Comenzando :
 _Crea una carpeta luego descarga los archivos (html y css )._ 
@@ -19,18 +19,19 @@ _Editor de codigo (para editar/ hacer cambios)_
 ```
 
 
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
-![Gifanimación ]()  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/BUTTON%20neon.gif)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/animaci%C3%B3n%20caida.gif)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/tree/master/animacionTextoBrillanteCss)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/animacionTrazoSVG.gif)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/botones%20sombras.gif)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/btn%20hover%20lado.gif)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/flipCard3D.gif)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/hovereffect%20card.gif)
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/hover%20me%20%20btn.gif)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/librito.gif)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/menu%20hover.gif)  
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/sombras.gif)  
+
 
 
   
