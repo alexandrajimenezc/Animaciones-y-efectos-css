@@ -26,7 +26,7 @@ _Editor de codigo (para editar/ hacer cambios)_
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/botones%20sombras.gif)  
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/btn%20hover%20lado.gif)  
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/flipCard3D.gif)  
-![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/hovereffect%20card.gif)
+![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/card%20hover.gif)
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/hover%20me%20%20btn.gif)  
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/librito.gif)  
 ![Gifanimación ](https://github.com/alexandrajimenezc/Animaciones-y-efectos-css/blob/master/menu%20hover.gif)  
